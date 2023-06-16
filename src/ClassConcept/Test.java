@@ -6,5 +6,6 @@ public class Test {
 
         Book B = new Book();
         B.bookDetails();
+        //Here i declare a variable ..
     }
 }
