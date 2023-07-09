@@ -1,5 +1,5 @@
 package ClassConcept;
-
+import java.util.Scanner;
 public class Author {
     String name;
     int age;
@@ -15,9 +15,6 @@ public class Author {
         System.out.println("Age : " + age);
         System.out.println("Gender : " + gender);
         a.address();
-    }
-    public static void main(String[] args){
-
     }
 
 }

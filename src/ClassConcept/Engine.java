@@ -6,7 +6,4 @@ public class Engine {
     {
         System.out.println("brr brrr brr brr!!!!");
     }
-    public static void main(String[] args){
-
-    }
 }
