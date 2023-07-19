@@ -1,6 +1,7 @@
 package Abstract;
 
-public interface ATMInterface {
+public interface ATMInterface
+{
     public void withDrawl();
 
     public void balanceCheck();
