@@ -163,6 +163,21 @@ public class Array2D {
             }
             System.out.println();
         }*/
+        for(int i=0; i<m; i++)
+        {
+            for(int j=0; j<n; j++)
+            {
+                if(i<=j)
+                {
+                    System.out.print(p[i][j]);
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
 
 
     }

@@ -6,13 +6,16 @@ public class loops {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number : ");
         int n = sc.nextInt();
-        /*int i=1;
+       /* System.out.println("-------------------odd");
+        int i=1;
         do{
             if(i%2==1)
                 System.out.println(i);
             i++;
         }while(i<=n*2);*/
-        /*int i=1;
+
+       /* System.out.println("------------------even");
+        int i=1;
         while(i<=2*n){
             if(i%2==0)
             {
@@ -20,12 +23,15 @@ public class loops {
             }
             i++;
         }*/
-       /* int fact=1;
+       /* System.out.println("--------------fact");
+        int fact=1;
         for(int i=1; i<=n;i++){
             fact=fact*i;
         }
         System.out.println(fact);*/
-        /*int sum=0;
+
+        /*System.out.println("----------add the all number up to n");
+        int sum=0;
         int i=1;
         while(i<=n)
         {
@@ -33,20 +39,25 @@ public class loops {
             i++;
         }
         System.out.println(sum);*/
-        /*int i=20;
+
+        /*System.out.println("--------------prod of all the number up to n");
+        int i=20;
         long prod=1;
         while(i<=40){
             prod=prod*i;
             i++;
         }
-        System.out.println(prod);*/
-        /*char i=65;
+        System.out.println(prod);
+*/
+        /*System.out.println("------------------print alphabets");
+        char i=65;
         while(i<=n)
         {
             System.out.println(i);
             i++;
         }*/
-        /*int i=1;
+
+        /*System.out.println("-------------digit in a number");
         int count=0;
         while(n>0)
         {
@@ -55,7 +66,9 @@ public class loops {
             n=n/10;
         }
         System.out.println(count);*/
-        /*int i=1;
+
+        /*System.out.println("-----------------sum of digit of a number");
+        int i=1;
         int sum=0;
         while(n>0)
         {
@@ -64,7 +77,9 @@ public class loops {
             n=n/10;
         }
         System.out.println(sum);*/
-        /*int prod=1;
+
+        /*System.out.println("------------prod of digits");
+        int prod=1;
         while(n>0)
         {
             int ld=n%10;
@@ -75,7 +90,9 @@ public class loops {
             n=n/10;
         }
         System.out.println(prod);*/
-        /*int rev=0;
+
+        /*System.out.println("------------rev of number");
+        int rev=0;
         while(n>0)
         {
             int ld=n%10;
@@ -83,7 +100,9 @@ public class loops {
             n=n/10;
         }
         System.out.println(rev);*/
-        /*int a=n;
+
+        /*System.out.println("-----------palindrome");
+        int a=n;
         int rev=0;
         while(a>0)
         {
@@ -93,15 +112,17 @@ public class loops {
         }
         if (n==rev)
         {
-            System.out.println("Number is pallindrome");
+            System.out.println("Number is palindrome");
         }
         else{
-            System.out.println("Number is not pallindrome");
+            System.out.println("Number is not palindrome");
         }*/
-        /*int prod=1;
+
+       /* System.out.println("------------");
+        int prod=1;
         do{
             int ld=n%10;
-            if(ld%2!=0)3
+            if(ld%2!=0)
             {
                 prod=prod*ld;
             }
@@ -109,7 +130,8 @@ public class loops {
         }while(n>0);
         System.out.println(prod);*/
 
-        /*int rev=0;
+        System.out.println("--------------------first number is even");
+        int rev=0;
         int ld=0;
         while(n>0)
         {
@@ -122,8 +144,9 @@ public class loops {
         }
         else{
             System.out.println("The first number is not even");
-        }*/
+        }
 
+        System.out.println("-------------------");
         /*int a= 'a';
         while(a<=n){
             System.out.println(a);
@@ -259,7 +282,7 @@ public class loops {
             }
         }*/
 
-        int sum=0;
+        /*int sum=0;
         int ev= 1;
         for (int i=40; i<=n; i++)
         {
@@ -279,7 +302,7 @@ public class loops {
                 ev=1;
             }
         }
-        System.out.println(sum);
+        System.out.println(sum);*/
 
 
 
