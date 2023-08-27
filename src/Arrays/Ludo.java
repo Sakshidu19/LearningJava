@@ -30,13 +30,13 @@ public class Ludo {
         {
             System.out.println( " " + len[i] + " ");
         }*/
-        int n=sc.nextInt();
+    /*    int n=sc.nextInt();
         System.out.println("Enter the value");
         int[] arr=new int[n];
         for(int i =0 ; i<arr.length; i++)
         {
             arr[i] = sc.nextInt();
-        }
+        }*/
         /*int sum=0;
         for(int i=0; i<n; i++)
         {
@@ -158,12 +158,12 @@ public class Ludo {
         System.out.println(secmax);*/
 
         
-    }
+   // }
 
-    public static class Arrays {
+    /*public static class Arrays {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the size of array");
+            System.out.println("Enter the size of array");*/
             /*int size = sc.nextInt();
             System.out.println("Enter the elements");
             int[] arr = new int[size];
@@ -308,25 +308,25 @@ public class Ludo {
 
             int[] a={1,2,3,4,5};
             int[] b={10,20,30};
-            int combineArray[] = new int[a.length + b.length];
+            int cA[] = new int[a.length + b.length];
             int i=0;
             int j=0;
             int k=0;
             while(i<a.length)
             {
-                combineArray[k]=a[i];
+                cA[k]=a[i];
                 i++;
                 k++;
             }
             while(j<b.length)
             {
-                combineArray[k] = b[j];
+                cA[k] = b[j];
                 j++;
                 k++;
             }
-            System.out.println(combineArray);
+            System.out.println(cA);
 
 
         }
     }
-}
+

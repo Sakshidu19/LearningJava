@@ -24,3 +24,4 @@ public class Vehicle {
         System.out.println("Enter the quality of break ");
     }
 }
+
